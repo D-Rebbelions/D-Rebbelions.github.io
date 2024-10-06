@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #1e1e1e; /* Dracula dark background */
+  color: #f8f8f2; /* Dracula light text */
+}
+
+a {
+  color: #50fa7b; /* Neon green links */
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  background-color: #282a36;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a:hover {
+  color: #ff79c6; /* Neon pink hover */
+}
+
+/* Home Section */
+#home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #ff79c6; /* Neon pink */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #bd93f9; /* Light purple hover */
+}
